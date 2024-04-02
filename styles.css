@@ -1,0 +1,186 @@
+.input,
+button {
+
+  height: 35px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.input {
+  width: 480px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background-image: url('https://t4.ftcdn.net/jpg/07/55/97/01/360_F_755970185_91qfWqP2mMyjfIvWC0lnJQNtyWIXdB7H.jpg');       
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000000;
+  position: relative;
+  padding-top: 60px;
+  align-items: center;
+  align-content: center;
+}
+
+ul > li {
+  display: none;
+}
+
+ul:hover > li {
+  display: block;
+}
+
+.container {
+  display: flex;
+}
+
+li {
+  background-color: #055160;
+  color: #bbcccf;
+}
+
+li:hover {
+  background-color: #bbcccf;
+  color: #055160;
+  cursor: pointer;
+}
+
+li:active {
+  opacity: 0.5;
+}
+
+.navbar {
+  cursor: pointer;
+  height: 100%;
+  width: 20%;
+  min-width: 100px;
+  max-width: 200px;
+  position: fixed;
+  z-index: 1;
+  color: #055160;
+  top: 0;
+  left: 0;
+  background-color: #bbcccf;
+  overflow-x: hidden;
+  padding-top: 20px;
+  transition-duration: 3s;
+}
+.navbar ul li a {
+  color: inherit; /* Use the same color as the parent element */
+  text-decoration: none; /* Remove underline */
+}
+
+.navbar ul li a:hover {
+  color: inherit; /* Use the same color as the parent element */
+}
+
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 205px;
+  padding: 20px;
+}
+
+.content {
+  margin: 15px;
+  padding: 15px;
+}
+
+button {
+  box-sizing: border-box;
+  height: 35px;
+  border: 2px solid #055160;
+  background-color: #bbcccf;
+  color: #055160;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-image: linear-gradient(180deg, #055160, #bbcccf);
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+.mainDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  background-color: #bbcccf;
+  color: #030404;
+  padding: 25px;
+  width: 500px;
+}
+
+.cityDisplay {
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.tempDisplay {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.humidityDisplay {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.note {
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+}
+
+
+.sunny {
+  background-image: url('https://st4.depositphotos.com/24735048/27230/i/450/depositphotos_272301072-stock-photo-summer-background-wonderful-sunny-sky.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cloudy {
+  background-image: url('https://wallpaperset.com/w/full/d/f/5/137181.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rainy {
+  background-image: url('https://www.freevector.com/uploads/vector/preview/7040/FreeVector-Rain-Background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.snowy {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/230/80/44/branches-winter-snow-5k-snowfall-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.sunny::before {
+  content: "☀️";
+}
+.cloudy::before {
+  content: "☁️";
+}
+.rainy::before {
+  content: "🌧️";
+}
+.snowy::before {
+  content: "❄️";
+}
