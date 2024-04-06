@@ -118,6 +118,15 @@ button:active {
   color: #030404;
   padding: 25px;
   width: 500px;
+  background-image: url('https://th.bing.com/th/id/OIG2.W0M0X_zBS_POYtQxKDLq?pid=ImgGn');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-shadow: 
+  -1px -1px 0 rgb(255, 255, 255),  
+  1px -1px 0 rgb(255, 255, 255),
+  -1px  1px 0 rgb(255, 255, 255),
+  1px  1px 0 rgb(255, 255, 255);
+
 }
 
 .cityDisplay {
@@ -149,27 +158,6 @@ button:active {
 }
 
 
-.sunny {
-  background-image: url('https://st4.depositphotos.com/24735048/27230/i/450/depositphotos_272301072-stock-photo-summer-background-wonderful-sunny-sky.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.cloudy {
-  background-image: url('https://wallpaperset.com/w/full/d/f/5/137181.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.rainy {
-  background-image: url('https://www.freevector.com/uploads/vector/preview/7040/FreeVector-Rain-Background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-.snowy {
-  background-image: url('https://c4.wallpaperflare.com/wallpaper/230/80/44/branches-winter-snow-5k-snowfall-wallpaper-preview.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 
 .sunny::before {
