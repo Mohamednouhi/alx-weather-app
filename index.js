@@ -23,7 +23,7 @@ function fetchWeather(city) {
       // Update the display with the fetched weather data.
       document.querySelector('.cityDisplay').textContent = data.name;
       document.querySelector('.tempDisplay').textContent = `${data.main.temp}°C`;
-      document.querySelector('.humidityDisplay').textContent = `Humidity: ${data.main.humidity}%`;
+      document.querySelector('.humidityDisplay').textContent = `Humidity: ${data.main.humidity}%`; 
 
       // Update the background based on the weather condition.
       updateBackground(data.weather[0].main);
